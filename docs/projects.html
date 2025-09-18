@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>William Vance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <body style="background-color: rgb(25, 25, 72); padding-bottom: 80px;">
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="d-flex" style="gap: 15px;">
+        <a href="home.html" class="btn btn-outline-info ms-3">Home</a>
+        <a href="hobbies.html" class="btn btn-outline-info">Hobbies</a>
+        <a href="projects.html" class="btn btn-outline-info">Projects</a>
+      </div>
+      <!--Code for the Icon in the nav bar-->
+      <div class="d-flex">
+        <img src="resources/img/11-20-20.png" alt="icon" width="50" height="50" style="margin-right: 15px; border-radius: 8px;">
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="accordion shadow-sm" id="accordionExample">
+            
+            <!-- Accordion Item 1 -->
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    This Website
+                </button>
+            </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <img src="resources/img/website.PNG" class="img-fluid" alt="Website screenshot">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card p-3 shadow-sm">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            This website that you are reading this text on is a project I have worked on. 
+                                            This is the first website I've ever built, and it is my first time working with HTML.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Item 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        CSCI 2270 Final Project
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                            
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <img src="resources/img/data_structures_project.PNG" class="img-fluid" alt="Website screenshot">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card p-3 shadow-sm">
+                                            <div class="card-body">
+                                                <p class="card-text">
+                                                    I worked on a final project for my data structures class. 
+                                                    In this project I had to create an inventory system for a dungeon crawler.
+                                                    This was done using a hash table where each element of the hash table was a priority queue.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                    </div>
+                </div>
+
+            <!-- Accordion Item 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Laser Harp
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <img src="resources/img/harp.PNG" class="img-fluid" alt="Website screenshot">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card p-3 shadow-sm">
+                                            <div class="card-body">
+                                                <p class="card-text">
+                                                    When I was studying electrical and computer engineering, with my lab team in ECEN 1400 we built a laser harp.
+                                                    The harp would play a note when one of the lasers was blocked.
+                                                    The note played would correspond to which laser was blocked.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-1 fixed-bottom">
+        <a href="https://github.com/wiva3392" class="text-white fs-3 me-3" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+    </footer>
+
+
+  </body>
+</html>
+
+
+<!--
+The general code skelton used on this page was generated by AI.
+AI used: Chat-GPT 5
+Prompt: Give me a barebones HTML structure for my personal website without adding any additional sections
+Code Generated(shown below, some of the comments generated had the closing brackets removed as they were ending this comment)
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Name</title>
+    <!-- <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+    <!-- Content goes here -->
+    <!-- <script src="app.js"></script> 
+  </body>
+</html>
+
+
+-->
